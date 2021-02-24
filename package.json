@@ -1,0 +1,19 @@
+{
+  "name": "webshop",
+  "version": "1.0.0",
+  "description": "light application for study",
+  "main": "index.html",
+  "dependencies": {
+    "jshint": "^2.11.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.24.1",
+    "webpack-cli": "^4.5.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "unterof",
+  "license": "ISC"
+}
